@@ -6,3 +6,8 @@ aws cognito-idp sign-up --region us-east-1 --client-id < > --username <> --passw
 
 to sign up and confirmation:
 aws cognito-idp admin-confirm-sign-up --region us-east-1 --user-pool-id <> --username <>
+
+
+initiate-authentication
+aws cognito-idp initiate-auth auth-flow USER-PASSWORD-AUTH client-id <> --auth-parameters  USERNAME=<>  PASSWORD+<>
+you will get refresh id and bearer token
