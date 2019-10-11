@@ -1,3 +1,4 @@
+# AWS Cognito
 
 AWS cognito is an authentication and authorization service from AWS It consists of two parts 1. User Pools 2.Federated Identity Pool
 
@@ -8,6 +9,7 @@ Users sign up first and then sign in using userpool. Once they sign in they reci
 We have created a API gateway "hello"  purely for testing purpose.
 
 # cli cheatsheet
+
 sign up to client using cli: this will automatically create the user 
 aws cognito-idp sign-up --region us-east-1 --client-id < > --username <> --password <> --user-attributes Name=email value=<@gmail.com>
 
