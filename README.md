@@ -1,12 +1,14 @@
 # AWS Cognito
 
-AWS cognito is an authentication and authorization service from AWS It consists of two parts 1. User Pools 2.Federated Identity Pool
+AWS cognito is an authentication and authorization service from AWS It consists of two parts 
+  1. User Pools 
+  2. Federated Identity Pool
 
-In this example we are creating AWS Cognito UserPool and AWS Cognito Identity Pool using serverless framework.
+In this example I am creating AWS Cognito UserPool and AWS Cognito Identity Pool using serverless framework.
 
 Users sign up first and then sign in using userpool. Once they sign in they recieve a token. This token is then used to get Identity token which in turns are used to access aws services.
 
-We have created a API gateway "hello"  purely for testing purpose.
+I have created a API gateway "hello"  purely for testing purpose.
 
 # cli cheatsheet
 
